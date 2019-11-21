@@ -1,0 +1,24 @@
+{
+	"_id" : ObjectId("5dd495c06ea9310dd0fe3dae"),
+	"DiaChi" : "B507",
+	"NamThanhLap" : "1999",
+	"TenKhoa" : "CNTT"
+},
+{
+	"_id" : ObjectId("5dd49e5f579dcb1ee4ea8b96"),
+	"DiaChi" : "A23",
+	"NamThanhLap" : "2000",
+	"TenKhoa" : "Van"
+},
+{
+	"_id" : ObjectId("5dd567e2579dcb3424c6332c"),
+	"DiaChi" : "C123",
+	"NamThanhLap" : "1998",
+	"TenKhoa" : "Hoa"
+},
+{
+	"_id" : ObjectId("5dd5e246579dcb24c487d866"),
+	"DiaChi" : "B123",
+	"NamThanhLap" : "2001",
+	"TenKhoa" : "Toan"
+},

@@ -1,0 +1,42 @@
+﻿@model Nhom05DemoADB.Models.SinhVienModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 class="text-center">Quản Lý Sinh Viên - NHOM05</h2>
+
+<div>
+    <h4>Xem thông tin Sinh Viên</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HoTen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoTen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QueQuan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QueQuan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SDT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SDT)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model._id }) |
+    @Html.ActionLink("Quay lại", "Index")
+</p>

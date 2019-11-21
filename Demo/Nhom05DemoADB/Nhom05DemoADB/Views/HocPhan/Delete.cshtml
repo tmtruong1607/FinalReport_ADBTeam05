@@ -1,0 +1,48 @@
+﻿@model Nhom05DemoADB.Models.HocPhanModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2 class="text-center">Quản Lý Học Phần - NHOM05</h2>
+
+<div>
+    <h4>Xóa thông tin Học Phần</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenHP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenHP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TinChi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TinChi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Quay lại", "Index")
+        </div>
+    }
+</div>

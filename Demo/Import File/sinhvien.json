@@ -1,0 +1,24 @@
+{
+	"_id" : ObjectId("5dd496186ea9310dd0fe3daf"),
+	"HoTen" : "Nguyen Minh Phap",
+	"QueQuan" : "Ninh Thuan - phan rang",
+	"SDT" : "123"
+},
+{
+	"_id" : ObjectId("5dd4e1e3579dcb2e8434f41b"),
+	"HoTen" : "tét",
+	"QueQuan" : "tesst",
+	"SDT" : "213"
+},
+{
+	"_id" : ObjectId("5dd4e201579dcb2e8434f41c"),
+	"HoTen" : "Nguyen Doan Tu",
+	"QueQuan" : "ha noi",
+	"SDT" : "123"
+},
+{
+	"_id" : ObjectId("5dd4e212579dcb2e8434f41d"),
+	"HoTen" : "Trần Minh Trường",
+	"QueQuan" : "Gia Lai",
+	"SDT" : "098"
+},
