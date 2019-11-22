@@ -1,6 +1,6 @@
-Hướng dẫn tạo database chạy local:
+﻿Hướng dẫn tạo database chạy local:
 
 1. Tạo database tên: NHOM5_ADB
-2. Import file .JSON để thêm 3 collection (folder Import File)
-3. Tạo MVC project
+2: Tạo user: username là "admin", password là "admin"
+3. Import file .JSON để thêm 3 collection (folder Import File)
 4. Vào file web.config để kết nối với database của bạn
